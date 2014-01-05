@@ -7,26 +7,107 @@ body {
 }
 
 header {
-  margin-bottom: 10px;
+  width: 1029px;
+  margin: 0 auto 30px auto;
 }
 
-header h1 {
-  width: 296px;
-  height: 70px;
-  overflow: hidden;
-  white-space: nowrap;
-  text-indent: 100%; 
-  background: url(../img/hui_vi_logo.png) no-repeat;
-  float: left;
-  margin: 0;
-}
+  header h1 {
+    width: 296px;
+    height: 70px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-indent: 100%; 
+    background: url(../img/hui_vi_logo.png) no-repeat;
+    float: left;
+    margin: 0;
+  }
 
-header nav {
-  float: left;
-}
+  header nav {
+    float: left;
+  }
+
+    header nav a {
+      display: block;
+      float:left;
+      height: 69px;
+      background: url(../img/main_nav.png) no-repeat;
+      overflow: hidden;
+      white-space: nowrap;
+      text-indent: 100%;
+      margin: 0 5px 0 0;
+      padding: 0;
+    }
+
+      a.last {
+        margin: 0;
+      }
+
+      a.illustration {
+        width: 107px;
+        background-position: 0 0;
+      }
+
+      a.illustration:hover {
+        background-position: 0 -69px;
+      }
+
+      a.game_art {
+        width: 100px;
+        background-position: -110px 0;
+      }
+
+      a.game_art:hover {
+        background-position: -110px -69px;
+      }
+
+      a.puppet_costume {
+        width: 110px;
+        background-position: -210px 0;
+      }
+
+      a.puppet_costume:hover {
+        background-position: -210px -69px;
+      }
+
+      a.sculpture {
+        width: 85px;
+        background-position: -320px 0;
+      }
+
+      a.sculpture:hover {
+        background-position: -320px -69px;
+      }
+
+      a.visual_display {
+        width: 104px;
+        background-position: -405px 0;
+      }
+
+      a.visual_display:hover {
+        background-position: -405px -69px;
+      }
+
+      a.contact {
+        width: 107px;
+        background-position: -507px 0;
+      }
+
+      a.contact:hover {
+        background-position: -507px -69px;
+      }
+
+      a.cv {
+        width: 89px;
+        background-position: -616px 0;
+      }
+
+      a.cv:hover {
+        background-position: -616px -69px;
+      }
 
 .wrapper {
-  width: 100%;
+  width: 95%;
+  margin: 0 auto;
 }
 
 .clearfix:after {

@@ -1,5 +1,5 @@
 html {
-  background: url(../img/notebook_paper_1.jpg);
+  background: url(../img/notebook_paper.jpg);
 }
 
 body {
@@ -18,8 +18,13 @@ header {
     white-space: nowrap;
     text-indent: 100%; 
     background: url(../img/hui_vi_logo.png) no-repeat;
+    background-position: 0 0;
     float: left;
     margin: 0;
+  }
+
+  header h1:hover {
+    background-position: 0 -70px;
   }
 
   header nav {
